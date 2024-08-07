@@ -1,7 +1,7 @@
-import { useTabAwayCount } from "react-customs";
+import { useTabAway } from "react-customs";
 
 function Content() {
-  const tabAwayCount = useTabAwayCount();
+  const tabAwayCount = useTabAway();
   return (
     <main className="w-full p-4 md:p-6 flex justify-center">
       <div className="w-full max-w-[800px] bg-zinc-950 text-zinc-50 rounded-lg p-6">
